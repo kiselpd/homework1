@@ -3,13 +3,13 @@
 #include <math.h>
 int main() {
 	
-	char *mass;			// указатель на начало динамического масива
+	char *mass;				// указатель на начало динамического масива
 	int i, input, location_of_point, error=1, sign;
 	//input: в неё с помощью getchar() считывается символ с клавиатуры
 	//location_of_point: показывает на каком месте будет находиться точка, разделяющая дробную и целую части
 	//error: при единицы цикл работает и программа не заканчивается, а при 0 выполняется выход из цикла
 	//sign: проверяет положительно или отрицательно число
-	double output;		//output: число, которое получается в конце программы
+	double output;			//output: число, которое получается в конце программы
 
 	printf("Enter integer and fractional parts. Fractional part must be no more 6 numbers.\nExample: 234 852\n");
 
