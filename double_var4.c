@@ -15,7 +15,7 @@ int main() {
 
 	while (error) {								
 
-		mass = (char*)malloc(sizeof(char)); //создание динамического масива
+		mass = (char*)malloc(sizeof(char));		//создание динамического масива
 		i = 0;
 		location_of_point = 0;
 		output = 0;
